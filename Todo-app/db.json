@@ -1,0 +1,13 @@
+{
+    "todos":[{
+        "id": 1,
+        "title": "json-server",
+        "status": "false"
+      },
+      {
+        "title": "Lets study",
+        "status": false,
+        "id": 3
+      }
+    ]
+}
