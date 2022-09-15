@@ -1,13 +1,45 @@
 {
-    "todos":[{
-        "id": 1,
-        "title": "json-server",
-        "status": "false"
-      },
-      {
-        "title": "Lets study",
-        "status": false,
-        "id": 3
-      }
-    ]
+  "todos": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "status": true
+    },
+    {
+      "title": "let's study",
+      "status": true,
+      "id": 2
+    },
+    {
+      "title": "code eat sleep repeat",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "let's completed this assingment",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "let's learn react-redux",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "let's learn node",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Let's study mern",
+      "status": false,
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ]
 }

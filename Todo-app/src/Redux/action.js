@@ -60,4 +60,16 @@ const editTodoFailure = ()=>{
     return {type:types.EDIT_TODO_FAILURE}
 }
 
-export {getTodoListsRequest, getTodoListSuccess,getTodoListFailure,addTodoListsRequest,addTodoListSuccess,addTodoListFailure,toggleTodoFailure,toggleTodoSuccess,toggleTodoRequest,deleteTodoRequest,deleteTodoSuccess,deleteTodoFailure,editTodoRequest,editTodoSuccess,editTodoFailure}
+const resetTodoRequest = ()=>{
+    return {type:types.RESET_TODO_REQUEST}
+}
+
+const resetTodoSuccess = (payload)=>{
+    return {type:types.RESET_TODO_SUCCESS,payload}
+}
+
+const resetTodoFailure = ()=>{
+    return {type:types.RESET_TODO_FAILURE}
+}
+
+export {getTodoListsRequest, getTodoListSuccess,getTodoListFailure,addTodoListsRequest,addTodoListSuccess,addTodoListFailure,toggleTodoFailure,toggleTodoSuccess,toggleTodoRequest,deleteTodoRequest,deleteTodoSuccess,deleteTodoFailure,editTodoRequest,editTodoSuccess,editTodoFailure,resetTodoRequest,resetTodoSuccess,resetTodoFailure}
